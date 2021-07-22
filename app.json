@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "ReactCamera",
-    "slug": "ReactCamera",
+    "name": "React Camera",
+    "slug": "React Camera",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
     ]
   },
-  "name": "ReactCamera"
+  "name": "React Camera"
 }
