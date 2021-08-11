@@ -7,7 +7,7 @@ import CameraRoll from "@react-native-community/cameraroll";
 
 export default function App() {
   const permission = PermissionsAndroid.PERMISSIONS.WRITE_EXTERNAL_STORAGE;
-  const camRef = useRef(null)
+  const camRef = useRef(null);
   const [base64, setBase64] = useState(null);
   const [hasPermission, setHasPermission] = useState(null);
   const [type, setType] = useState(Camera.Constants.Type.front);
